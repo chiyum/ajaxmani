@@ -1,0 +1,101 @@
+*{margin: 0;padding:0;box-sizing: border-box;}
+
+li{list-style: none;}
+
+img{vertical-align: top;border: none;}
+
+body{
+    background: url(../img/page_bg.jpg) repeat-x;
+    padding: 30px;
+   
+}
+
+.wrap{
+    z-index: 2;
+    margin: 0 auto;
+    width: 768px;
+    // height: 1024px;
+    .head{
+        display: flex;
+        padding: 15px 45px;
+        background: url(../img/header.gif) no-repeat;
+        background-position: 0px -30px;
+        img{
+            width: 182px;
+            height: 60px;
+        }
+        span{
+            font-size: 12px;
+            margin: 30px 5px;
+        }
+      
+    }
+}
+
+.container{
+    display: flex;
+    .column{
+        margin-left: 33px;
+        width: 195px;
+        height: 650px;
+        border-left: 1.5px #c3c3c3  dashed;
+        border-right: 1.5px #c3c3c3  dashed;
+        border-bottom: 1.5px #c3c3c3  dashed;
+        p{
+            margin: 0 10px;
+            padding: 5px;
+            border-top: 1.5px #c3c3c3 dashed;
+            font-size: 12px;
+            text-align: justify;
+            line-height: 1.5em;
+            a{
+                color: #6C0;
+            }
+        }
+        
+        
+    }
+    .subnav{
+        img:hover{
+            opacity: 0.5;
+            transition: all 1s;
+        }
+    }
+}
+
+.content{
+    position: relative;
+    right: 1.5px;
+    padding-left: 35.5px;
+    border-right: 1.5px #c3c3c3 dashed ;
+    border-bottom: 1.5px #c3c3c3 dashed;
+    .banner{
+        img{
+            position: relative;
+            right: 23px;
+        }
+    }
+    .main{
+        position: relative;
+        right: 21px;
+        top: 25px;
+        font-size: 12px;
+        span{
+            display: block;
+            margin: 20px 0px;
+            color: #98722B;
+        }
+        p{
+            margin-bottom: 15px;
+            line-height: 2.5em;
+        }
+    }
+    .box{
+        position: absolute;
+        bottom:-50px;
+        left: -25px;
+        width: 10px;
+        height: 10px;
+        border-top: 1.5px #c3c3c3  dashed;
+    }
+}
